@@ -1,23 +1,7 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+     box-sizing: border-box;
 }
 
-/* Clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -33,12 +17,12 @@ Developer @GA in NYC
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px;
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0;
 }
 
 /******************************************
@@ -46,35 +30,274 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #f0efef;
+     font-size: 24px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
+     font-family: open sans;
+     font-weight: light;
+     background-color: #f0efef;
 }
 
 header {
+  width:100%;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-family: open sans;
+  font-weight: bold;
+  padding-left: 75px;
+  padding-top: 25px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+header nav {
+  font-weight: semibold;
+  font-family: open sans;
+  font-size: 24px;
+  text-align: right;
+  vertical-align: middle;
+
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    float: right;
+    padding-top: 25px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: #f9e42e;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    color: #777;
+}
+
+.heading {
+  background-color: #033048;
+  height: 120px;
+}
+
+aside {
+  float:left;
+  width:75%;
+}
+
+aside h1 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: semibold;
+  text-align: left;
+  float: left;
+}
+
+
+.container1 {
+  background-color: #f0efef;
+  margin: 50px 75px 75px 75px;
+  height:600px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: black
+}
+
+img {
+  width: 100%;
+}
+
+.container1 p {
+  color: #606161;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.container1 nav a {
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #033048;
+  }
+
+
+.container2 {
+  background-color: #f0efef;
+  margin: 75px;
+  height:600px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: black
+}
+
+.container2 p {
+  color: #606161;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.container2 nav a {
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #033048;
+  }
+
+.clear {
+  clear:both;
+}
+
+.sidenav {
+    width: 20%;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 10px 0;
+}
+
+.sidenav h2 {
+  color:#033048;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding: 50px 8px 6px 16px;
+}
+
+.sidenav a {
+    padding: 0px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #606161;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.aboutsidebar {
+    width: 20%;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0; 
+}
+
+.aboutsidebar h2{
+  color: #033048;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px 8px 6px 16px;
+}
+
+.aboutsidebar p {
+    padding: 0px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #606161;
+    display: block;  
+}
+
+.aboutsidebar a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #033048;
+  text-decoration: none;
+  padding: 0px 8px 6px 16px;
+  display: block;
+}
+
+.aboutsidebar a:hover {
+    color: #064579
+}
+
+.ad {
+    width: 20%;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 50px 8px 6px 16px;
+    margin: 75px;
+}
+
+.clear {
+  clear:both;
+}
+
+section {
+    background: #f9e42e;
+    padding: 30px;
+    text-align: center;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
 
 }
 
 footer {
-
+    background: #121212;
+    padding: 65px 0 45px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
 
-
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
 
 
