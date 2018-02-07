@@ -1,3 +1,9 @@
+// get city options
+// define dropdown elements
+// change background upon selection
+// change background to selected city
+// click between options to change background
+
 $(document).ready(function() {
 
 var cities = ["nyc", "sf", "la", "atx", "syd"];
@@ -24,10 +30,3 @@ $("#city-type").change(function() {
 })  
 
 });
-
-		// function selectCity(event) {
-	 //   		event.preventDefault();
-
-// 	}
-
-// });
