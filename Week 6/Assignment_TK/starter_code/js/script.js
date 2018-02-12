@@ -30,3 +30,18 @@ $("#city-type").change(function() {
 })  
 
 });
+
+// jQuery
+
+// var cityArr = ["NYC", "SF", "LA", "ATX", "SYD"]
+
+// $.each(cityArr, function(index, value) {
+	// console.log(value);
+// 	$('select').append('<option>' + value + '</option>')
+
+
+// Javascript
+
+// for(var i =0; i < cityArr.length; i++) {
+	// $('select').append('<option>'+ cityArr[i] + '</option');
+// }
