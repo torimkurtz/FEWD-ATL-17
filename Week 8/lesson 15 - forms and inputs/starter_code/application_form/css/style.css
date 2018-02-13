@@ -1,0 +1,44 @@
+input {
+	background-color: #fff8d3;
+	height:20px;
+	border-radius: 5px;
+}
+label {
+	margin-right: 50px;
+	margin-left: 20px;
+	float:left;
+	width:24%;
+}
+
+
+.container {
+	margin-left: 2%;
+	text-align: left;
+}
+
+.name {
+
+	margin-left: 100px;
+}
+
+.phonenumber {
+
+	margin-left: 100px;
+}
+
+.phonenumber input {
+
+	height:20px;
+	width:4%;
+}
+
+
+.address input {
+
+	margin-bottom: 3px;
+}
+
+.box {
+	width:75%;
+	float:left;
+}
