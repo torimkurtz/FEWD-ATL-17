@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<title>To Do</title>
+	<link rel="stylesheet" href="css/todo.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<div id="myDIV" class="header">
+		  <h2>Activites</h2>
+		  <input type="text" id="myInput" placeholder="Add List Item">
+		  <span onclick="newElement()" class="addBtn">Add</span>
+		</div>
+
+		<ul id="myUL">
+		</ul>
+	</div>	
+
+	<div class="containertwo">
+		<div id="myDIV" class="header">
+		  <h2>Important!</h2>
+		  <input type="text" id="myInput2" placeholder="Add List Item">
+		  <span onclick="newElementListTwo()" class="addBtn">Add</span>
+		</div>
+
+		<ul id="myUL2">
+		</ul>	
+	</div>
+
+	<div class="containerthree">
+		<div id="myDIV" class="header">
+		  <h2>To Do: Today</h2>
+		  <input type="text" id="myInput3" placeholder="Add List Item">
+		  <span onclick="newElementListThree()" class="addBtn">Add</span>
+		</div>
+
+		<ul id="myUL3">
+		</ul>	
+	</div>	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/js.js"></script>
+
+</body>
+<html>
