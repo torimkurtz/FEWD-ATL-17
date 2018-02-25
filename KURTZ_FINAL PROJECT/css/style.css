@@ -57,6 +57,15 @@ body {
     to {margin-left: 60%;}
 }
 
+.box:after { 
+  content: "";
+  height:150px;
+  width: 40%;
+  position:relative;
+/*  position: absolute; */
+}
+.box:hover:after{ width: 0%; }
+
 .box2 {
   background:hsla(314, 0%, 35%, 0.29);
   margin-top: 5%;
