@@ -50,8 +50,11 @@ body {
 }
 
 @keyframes move {
-    from {margin-left:125%;}
-    to {margin-left: 0%;}
+    from {margin-left:125%;
+          background-position: 0 0;}
+    to {margin-left: 0%;
+        background-position: 0 0;}
+
 }
 
 .box h1 {
